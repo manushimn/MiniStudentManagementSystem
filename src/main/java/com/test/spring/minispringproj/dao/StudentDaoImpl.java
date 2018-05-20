@@ -7,7 +7,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-@Repository("studentDo")
+@Repository("studentDao")
 public class StudentDaoImpl implements StudentDao {
     private static Map<Integer, Student> students;
 
